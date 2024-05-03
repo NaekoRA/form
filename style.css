@@ -1,0 +1,21 @@
+.submit{
+    background-color: green;
+    color: white;
+    border: 0cap;
+    border-radius: 15%;
+    width: 75px;
+    height: 25px;
+    font-size: 15px;
+    
+}
+.reset{
+    background-color: red;
+    color: white;
+    border: 0cap;
+    border-radius: 15%;
+    width: 75px;
+    height: 25px;
+    font-size: 15px;
+    
+}
+
