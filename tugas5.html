@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    
+      <b style="font-size: 66px;">Form Data Mahasiswa</b>  
+    
+    <hr>
+        <form action="index.php">
+            <table align="center">
+                <tr align="left">
+                    <td><label for="nama">Nama Anda:</label>
+                    <td><input type="text" id="nama" name="nama">
+                </tr>
+                <tr align="left">
+               <td valign="left"> <label for="gender">Jenis Kelamin:</label>
+               <td><input type="radio" id="laki-laki" name="gender" value="lanang">Laki-Laki <br>
+               <input type="radio" name="gender" id="perempuan" value="wedok">Perempuan <br>
+               <input type="radio" name="gender" id="tuhan" value="tuhan">tuhan
+            </tr>
+            <tr align="left">
+               <td valign="top"> <label for="hoby1" >Hoby :</label>
+               <td > <input type="checkbox" name="hoby1" id="hoby1" value="music">musik <br>
+                <input type="checkbox" name="hoby1" id="hoby1" value="jalan">jalan <br>
+                <input type="checkbox" name="hoby1" id="hoby1" value="baca">baca <br>
+            </tr>
+            <tr align="left">
+                <td><label for="agama">agama:</label></td>
+                <td>
+                    <select id="agama" name="agama">
+
+                        <option value="islam">islam</option>
+                        <option value="kristen">kristen</option>
+                        <option value="hindu">hindu</option>
+                        <option value="budha">budha</option>
+                        <option value="katolik">katolik</option>
+                        <option value="konghucu">konghucu</option>
+                        <option value="hehe">pemuja pantat</option>
+                    </select>
+                </td>
+                <tr align="left">
+                    <td><label for="sekolah">asal sekolah:</label></td>
+                    <td> <input type="text" name="sekolah" id="sekolah" size="30 "></td>
+                </tr>
+                <tr align="left">
+                    <td><label for="keterangan">keterangan:</label></td>
+                    <td><input type="text" name="keterangan" id="keterangan" style="width:300px; height: 100px;" required></td>
+                </tr>
+            </tr>
+            </table>
+            <hr>
+            <input type="submit" value="kirim">
+            <input type="reset" value="reset">
+
+
+
+
+
+
+
+
+
+
+        
+        </form>
+
+</body>
+</html>
